@@ -3,7 +3,7 @@
 Plugin Name: Xmas Lights
 Plugin URI: http://graphicedit.com/blog/plugin/xmas-lights/
 Description: This plugin adds Xmas Lights.
-Version: 1.0.0
+Version: 1.0.1
 Author: GraphicEdit
 Author URI: http://www.graphicedit.com/
 
@@ -30,6 +30,8 @@ function xmas_lights() {
 
 <!-- xmas_lights [ start ] -->
 <script type="text/javascript">
+document.write("<div id='lights' style='position:absolute;width:956px;height:180px;top:-20px;background:url(<?php echo plugins_url() . '/xmas-lights/'; ?>light.png) no-repeat;left:50%;margin-left:-478px'></div>")
+
 setInterval( "xmasLights();", 1000 );
 var lights = "active";
 function xmasLights(){
@@ -43,11 +45,6 @@ function xmasLights(){
 	}
 } 
 </script>
-
-
-<div id="lights" style="position:absolute;width:956px;height:180px;top:-20px;background:url(<?php echo plugins_url() . '/xmas-lights/'; ?>light.png) no-repeat;left:50%;margin-left:-478px"></div>
-
-
 <!-- xmas_lights [ end ] -->
 <?php   
 }

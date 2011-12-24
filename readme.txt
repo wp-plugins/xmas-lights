@@ -5,7 +5,7 @@ Donate link: http://www.graphicedit.com/
 Tags: Christmas lights, Christmas, winter, xhristmas lights, Xmas, 
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Add nice looking animated Xhristmas(Christmas) Lights to the top of site.
 
@@ -29,7 +29,8 @@ not yet
 
 
 == Upgrade Notice ==
-not yet
+1.1.1
+minor code improvements
 
 == Changelog ==
 not yet
