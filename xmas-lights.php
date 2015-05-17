@@ -3,7 +3,7 @@
 Plugin Name: Xmas Lights
 Plugin URI: http://graphicedit.com/blog/plugin/xmas-lights/
 Description: This plugin adds Xmas Lights.
-Version: 1.0.1
+Version: 1.0.2
 Author: GraphicEdit
 Author URI: http://graphicedit.com/
 
